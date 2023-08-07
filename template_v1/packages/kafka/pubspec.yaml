@@ -1,0 +1,25 @@
+name: 'kafka'
+version: 0.1.0
+description: Kafka client library for Dartlang
+homepage: https://github.com/dart-drivers/kafka
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+
+  async: ^2.5.0
+  quiver: ^3.0.0
+  logging: ^1.0.0
+  pool: ^1.5.0
+  collection: ^1.15.0-nullsafety.4
+
+dev_dependencies:
+  test: ^1.16.5
+  mockito: ^5.0.0
+  dart_coveralls:
+    git:
+      url: https://github.com/adaptant-labs/dart-coveralls
+      ref: nullsafety
+  string_scanner: ^1.1.0
+  source_span: ^1.8.1

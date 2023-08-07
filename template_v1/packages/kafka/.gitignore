@@ -1,0 +1,13 @@
+pubspec.lock
+.pub/
+bin/
+doc/api/
+packages
+.packages
+notes.md
+coverage/
+.atom/
+.vscode/
+.idea/
+package_config.json
+.DS_Store
